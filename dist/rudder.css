@@ -1,0 +1,46 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    background-color: white;
+}
+
+.rudder {
+    margin: 16px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.rudder button {
+    border: none;
+    background-color: white;
+    font-size: 0.9rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.rudder button:hover {
+    cursor: pointer;
+}
+
+.rudder button:active {
+    background-color: black;
+    color: white
+}
+
+.rudder .menu-button {
+    font-size: 1.1rem;
+}
+
+.rudder.collapsed button.menu-button {
+    display: inline;
+}
+
+.rudder.collapsed button {
+    display: none;
+}

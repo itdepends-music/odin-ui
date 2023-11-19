@@ -26,10 +26,17 @@ eval("const dropdowns = document.getElementsByClassName('dropdown');\nconst allD
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _dropdown__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dropdown */ "./src/dropdown.js");
-/* harmony import */ var _dropdown__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_dropdown__WEBPACK_IMPORTED_MODULE_0__);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _dropdown__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dropdown */ \"./src/dropdown.js\");\n/* harmony import */ var _dropdown__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_dropdown__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _rudder__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./rudder */ \"./src/rudder.js\");\n/* harmony import */ var _rudder__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_rudder__WEBPACK_IMPORTED_MODULE_1__);\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBb0IiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9vZGluLXRlbXBsYXRlLy4vc3JjL2luZGV4LmpzP2I2MzUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICcuL2Ryb3Bkb3duJztcbmltcG9ydCAnLi9ydWRkZXInO1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/index.js\n");
 
+/***/ }),
+
+/***/ "./src/rudder.js":
+/*!***********************!*\
+  !*** ./src/rudder.js ***!
+  \***********************/
+/***/ (() => {
+
+eval("const rudders = document.getElementsByClassName('rudder');\nfor (const rudder of rudders) {\n  const menuButton = rudder.getElementsByClassName('menu-button')[0];\n  menuButton.addEventListener('click', () => {\n    rudder.classList.toggle('collapsed');\n  });\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcnVkZGVyLmpzIiwibmFtZXMiOlsicnVkZGVycyIsImRvY3VtZW50IiwiZ2V0RWxlbWVudHNCeUNsYXNzTmFtZSIsInJ1ZGRlciIsIm1lbnVCdXR0b24iLCJhZGRFdmVudExpc3RlbmVyIiwiY2xhc3NMaXN0IiwidG9nZ2xlIl0sInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9vZGluLXRlbXBsYXRlLy4vc3JjL3J1ZGRlci5qcz9lNjM5Il0sInNvdXJjZXNDb250ZW50IjpbImNvbnN0IHJ1ZGRlcnMgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKCdydWRkZXInKTtcblxuZm9yIChjb25zdCBydWRkZXIgb2YgcnVkZGVycykge1xuICAgIGNvbnN0IG1lbnVCdXR0b24gPSBydWRkZXIuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZSgnbWVudS1idXR0b24nKVswXTtcbiAgICBtZW51QnV0dG9uLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgKCkgPT4ge1xuICAgICAgICBydWRkZXIuY2xhc3NMaXN0LnRvZ2dsZSgnY29sbGFwc2VkJyk7XG4gICAgfSk7XG59XG4iXSwibWFwcGluZ3MiOiJBQUFBLE1BQU1BLE9BQU8sR0FBR0MsUUFBUSxDQUFDQyxzQkFBc0IsQ0FBQyxRQUFRLENBQUM7QUFFekQsS0FBSyxNQUFNQyxNQUFNLElBQUlILE9BQU8sRUFBRTtFQUMxQixNQUFNSSxVQUFVLEdBQUdELE1BQU0sQ0FBQ0Qsc0JBQXNCLENBQUMsYUFBYSxDQUFDLENBQUMsQ0FBQyxDQUFDO0VBQ2xFRSxVQUFVLENBQUNDLGdCQUFnQixDQUFDLE9BQU8sRUFBRSxNQUFNO0lBQ3ZDRixNQUFNLENBQUNHLFNBQVMsQ0FBQ0MsTUFBTSxDQUFDLFdBQVcsQ0FBQztFQUN4QyxDQUFDLENBQUM7QUFDTiJ9\n//# sourceURL=webpack-internal:///./src/rudder.js\n");
 
 /***/ })
 
