@@ -1,4 +1,5 @@
 const dropdowns = document.getElementsByClassName('dropdown');
+const allDropdownItems = document.getElementsByClassName('dropdown-items');
 
 for (const dropdown of dropdowns) {
     const dropdownButton =
@@ -7,5 +8,11 @@ for (const dropdown of dropdowns) {
 
     dropdownButton.addEventListener('click', () => {
         dropdownItems.classList.toggle('hidden');
+
+        for (const curDropdownItems of allDropdownItems) {
+            if (curDropdownItems !== dropdownItems) {
+                curDropdownItems.classList.add('hidden');
+            }
+        }
     });
 }
